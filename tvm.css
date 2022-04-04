@@ -1,0 +1,32 @@
+/*.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  img
+  {
+      width: 50px;
+  }
+  
+  /* Clear floats after image containers 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }*/
+
+
+  .column {
+    flex: 30%;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  img {
+    width: 100%;
+  }
+  .row {
+     display: flex;
+  }
